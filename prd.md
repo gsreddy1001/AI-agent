@@ -8,13 +8,13 @@ then point Claude at this file to start planning.
 A job application AI agent, built from scratch for the final Claude Code Masterclass video. It
 finds DevOps Engineer postings, tailors a resume to each one, and hosts itself to run every day.
 
-**Candidate:** Sai Santosh Kumar, DevOps Engineer.
-Base resume lives at `resume/base_resume.md` (AWS/Terraform/Kubernetes/CI-CD, ~5 yrs experience).
+**Candidate:** Sudhakara Reddy Gorla, Project Manager.
+Base resume lives at `resume/base_resume.md` ( ~9 yrs experience).
 
 ## 2. Goal
 
 End to end, one run should:
-1. Pull fresh DevOps Engineer job postings.
+1. Pull fresh Project manager job postings.
 2. Score each against the base resume's skills/experience.
 3. Keep only jobs scoring 8+/10 fit.
 4. Tailor the resume per qualifying job (no fabrication).
@@ -26,7 +26,7 @@ End to end, one run should:
 
 ### 3.1 Scrape
 - Source: Apify (free tier), an actor that covers LinkedIn job search.
-- Niche: DevOps Engineer, remote or hybrid, full-time.
+- Niche: project Manager, remote or hybrid, full-time.
 - Output: list of `{title, company, link, description, posted_date}`.
 
 ### 3.2 Score + Filter
